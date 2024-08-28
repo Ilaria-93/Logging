@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.loggingdemo.service: DEBUG
+  file:
+    path: myCustomLogs
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss}){faint} %clr(%5p) %clr(%c{1.}){cyan} - %m%n%wEx"
+
+my:
+  custom:
+    var1: 2
+    var2: 8
